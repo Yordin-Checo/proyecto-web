@@ -3,30 +3,128 @@
   <head>
     <title>Ejercicio 1 Suma</title>
   </head>
+  <script src="../../JavaScript/validaciones.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
   <body>
     <br />
     <h1 align="center">
-      1) Si tengo 2 Manzana y me regalan 2 Manzana más cuanta Manzana tengo
-      elija la respuesta correcta:
+      Elige las respuestas correctas:
     </h1>
+    <form name="F1">
+      <table border="2" align="center">
+        <tr>
+          <td align="center">
+            <img
+              src="../../img/img res/Ejercicios 1.png"
+              alt="UNA MANZANA"
+              height="250"
+              width="300"
+            />
+            <br />
+            1)
+            <select id="p1">
+              <option value="0"></option>
+              <option value="1">10</option>
+              <option value="2">15</option>
+              <option value="3">05</option>
+              <option value="4">07</option>
+            </select>
+          </td>
+          <td align="center">
+            <img
+              src="../../img/img res/Ejercicios 2.png"
+              alt="UNA MANZANA"
+              height="250"
+              width="300"
+            />
+            <br />
+            2)
+            <select id="p2">
+              <option value="0"></option>
+              <option value="1">10</option>
+              <option value="2">02</option>
+              <option value="3">09</option>
+              <option value="4">06</option>
+            </select>
+          </td>
+          <td align="center">
+            <img
+              src="../../img/img res/Ejercicios 3.png"
+              alt="UNA MANZANA"
+              height="250"
+              width="300"
+            />
+            <br />
+            3)
+            <select id="p3">
+              <option value="0"></option>
+              <option value="1">05</option>
+              <option value="2">15</option>
+              <option value="3">06</option>
+              <option value="4">08</option>
+            </select>
+          </td>
+          <!--Fin-->
+        </tr>
+        <tr>
+          <td align="center">
+            <img
+              src="../../img/img res/Ejercicios 4.png"
+              alt="UNA MANZANA"
+              height="250"
+              width="300"
+            />
+            <br />
+            4)
+            <select id="p4">
+              <option value="0"></option>
+              <option value="1">18</option>
+              <option value="2">15</option>
+              <option value="3">25</option>
+              <option value="4">17</option>
+            </select>
+          </td>
+          <td align="center">
+            <img
+              src="../../img/img res/Ejercicios 5.png"
+              alt="UNA MANZANA"
+              height="250"
+              width="300"
+            />
+            <br />
+            5)
+            <select id="p5">
+              <option value="0"></option>
+              <option value="1">11</option>
+              <option value="2">10</option>
+              <option value="3">15</option>
+              <option value="4">07</option>
+            </select>
+          </td>
+          <td align="center">
+            <img
+              src="../../img/img res/Ejercicios 6.png"
+              alt="UNA MANZANA"
+              height="250"
+              width="300"
+            />
+            <br />
+            6)
+            <select id="p6">
+              <option value="0"></option>
+              <option value="1">10</option>
+              <option value="2">05</option>
+              <option value="3">10</option>
+              <option value="4">13</option>
+            </select>
+          </td>
+        </tr>
+      </table>
 
-    <table border="2" align="center">
-      <tr>
-        <td align="center">
-          <img src="../../img/img res/Manzana 1.png" alt="UNA MANZANA" />
-        </td>
-        <td align="center">
-          <img src="../../img/img res/Manzana 4.png" alt="CUATRO MANZANA" />
-        </td>
-      </tr>
-      <tr>
-        <td align="center">
-          <img src="../../img/img res/Manzana 5.png" alt="CINCO MANZANA" />
-        </td>
-        <td align="center">
-          <img src="../../img/img res/Manzana 2.png" alt="SUMA" alt="DIVIDIR" />
-        </td>
-      </tr>
-    </table>
+      <br />
+      <div align="center">
+        <input type="button" value="Corregir" onclick="Evaluar();" />
+      </div>
+    </form>
   </body>
 </html>
