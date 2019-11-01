@@ -35,6 +35,13 @@ function Evaluar() {
   if (resultado == 4) {
     Total = Total + 1;
   }
-
-  return Swal.fire("Has logrado", "Un total de: " + Total, "success");
+  if (Total == 0) {
+    Swal.fire({
+      type: "error",
+      title: "Oops...",
+      text: "Intente de nuevo a fallado en todas!"
+    });
+  } else {
+    return Swal.fire("Has logrado", "Un total de: " + Total, "success");
+  }
 }
